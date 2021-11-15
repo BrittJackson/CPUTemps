@@ -20,6 +20,10 @@ The following will be displayed:
 ```
 Usage: ./core_temp.py [csv filename]
 ```
+```
+To run the program:
+./core_temp.py filename.csv
+```
 Output written to each core text file in the form:
 ```
 x_k <= x <= x_k+1; y_i = c0 + c1x; type
