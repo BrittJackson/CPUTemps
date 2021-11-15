@@ -8,6 +8,7 @@ The application requires a CSV file as input.
 * Python 3.8
 * NumPy Library
 * Pandas Library
+* Matplotlib
 
 # Sample Execution and Output
 
@@ -31,4 +32,6 @@ cpuTemps-core-0.txt
 cpuTemps-core-1.txt
 cpuTemps-core-2.txt
 cpuTemps-core-3.txt
+
+A graph of linearly interpolated data is output.
 ```
