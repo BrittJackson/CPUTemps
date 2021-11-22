@@ -1,8 +1,11 @@
 #! /usr/bin/env python3
 '''
-Created on Nov 12, 2021
+Created on June 9, 2021
 
 @author: bnjac
+
+Performs gaussian elimination to find the solution for 
+the system of equations of temperatures and time steps for each core
 '''
 import numpy as np
 
