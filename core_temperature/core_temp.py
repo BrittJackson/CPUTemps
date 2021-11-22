@@ -32,7 +32,8 @@ def main():
     core = list(core_list[1:])
     
     core0,core1,core2,core3 = zip(*core)
-        
+    
+    #time steps of 30 second intervals for each recorded temperature
     step_size = tuple(range(0, len(core0)*30, 30))
     
     arrangeMatrix(core0, core1, core2, core3, step_size)
