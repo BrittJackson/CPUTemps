@@ -3,14 +3,20 @@
 Command-line interface software application which reads in data from the open-source software Open Hardware Monitor.
 The application requires a CSV file as input.
 
-# Requirements
+## Requirements
 * Open Hardware Monitor
 * Python 3.8
 * NumPy Library
 * Pandas Library
 * Matplotlib
 
-# Sample Execution and Output
+## Setup Prior to Using the CPUTemp Application
+* Open the Open Hardware Monitor application and go to settings.
+* Set the logging interval to 30 seconds.
+* Go to Options then Log Sensors. This will allow the report to be recorded in a CSV file.
+* The CSV file will automatically be saved to the Open Hardware Monitor folder.
+
+## Sample Execution and Output
 
 Running the program without an input file as: 
 ```
