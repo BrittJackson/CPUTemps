@@ -29,7 +29,7 @@ def main():
     
     core_list = final_df.values.tolist()
     
-    core = list(core_list[1:])
+    core = list(core_list)
     
     core0,core1,core2,core3 = zip(*core)
     
