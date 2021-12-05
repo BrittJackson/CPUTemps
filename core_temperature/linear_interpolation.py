@@ -4,7 +4,7 @@ Created on June 9, 2021
 
 @author: Brittney Jackson
 '''
-
+from matplotlib.ticker import MaxNLocator
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -61,7 +61,7 @@ def interpolate(x_val, y_val, core):
 def plot_graph(x, y, core):
     
     """
-    Plots CPU temperatures and time in seconds for each core
+    Plots and prints CPU temperatures and time in seconds for each core
 
     Args:
         x: The time steps      
@@ -76,8 +76,8 @@ def plot_graph(x, y, core):
     plt.plot(x, y)
     
     if core == 3:
-        plt.xticks(np.arange(min(x), max(x)+1, 60.0))
-        plt.yticks(np.arange(min(y), max(y)+1, 10.0))
+        plt.xticks(np.arange(min(x), max(x)+1, 30.0))
+        plt.gca().xaxis.set_major_locator(MaxNLocator(steps=[1.8, 4.5, 9]))
         plt.gca().legend(('core 0','core 1','core 2', 'core 3'))
         plt.show()   
 
