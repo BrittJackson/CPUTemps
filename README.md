@@ -13,7 +13,8 @@ The application requires a CSV file as input.
 ## Setup Prior to Using the CPUTemp Application
 * Open the Open Hardware Monitor application and go to settings.
 * Set the logging interval to 30 seconds.
-* Go to Options then Log Sensors. This will allow the report to be recorded in a CSV file.
+* Go to File -> Hardware and make sure CPU has a checkmark.
+* Go to Options -> Log Sensors. This will allow the report to be recorded in a CSV file.
 * The CSV file will automatically be saved to the Open Hardware Monitor folder.
 
 ## Sample Execution and Output
